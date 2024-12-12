@@ -1,0 +1,49 @@
+
+/* Header Styles */
+header {
+    background-color: #222;
+    color: white;
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.search-bar {
+    display: flex;
+}
+
+.search-bar input {
+    padding: 5px;
+    outline: none;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+    background-color: #ff6347;
+    border: none;
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,15 @@
+body {
+    background: linear-gradient(90deg, #ff6a00, #ee0979);
+    background-size: 200% 200%;
+    animation: moveBackground 10s infinite alternate;
+}
+
+@keyframes moveBackground {
+    from {
+        background-position: 0% 50%;
+    }
+    to {
+        background-position: 100% 50%;
+    }
+}
+

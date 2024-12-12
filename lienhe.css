@@ -1,0 +1,104 @@
+/* Định dạng chung cho phần liên hệ */
+.contact-us {
+    padding: 50px 20px;
+    background-color: #f8f8f8;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Tiêu đề */
+.contact-header h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.contact-header p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+/* Container chính */
+.contact-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+/* Biểu mẫu liên hệ */
+.contact-form {
+    flex: 1 1 45%;
+    max-width: 500px;
+    text-align: left;
+}
+
+.contact-form input, 
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #28a745;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: #218838;
+}
+
+/* Thông tin liên lạc */
+.contact-info {
+    flex: 1 1 45%;
+    max-width: 500px;
+    text-align: left;
+}
+
+.contact-info h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.contact-info p {
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+.contact-info a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Mạng xã hội */
+.social-links a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #444;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #000;
+}

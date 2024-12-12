@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang Chủ-Shop Quần Áo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <header>
+        <nav>
+            
+            <ul class="nav-links">
+              <li><a href="./gioithieu.html">Giới thiệu</a></li>
+                <li><a href="./trangchu3.html">Trang chủ</a></li>
+                <li><a href="./quanao.html">Quần Áo</a></li>
+                <li><a href="./giaydep.html">Giày Dép</a></li>
+                <li><a href="./lienhe.html">Liên hệ</a></li>
+            </ul>
+            <div class="search-bar">
+                <input type="text" placeholder="Search...">
+                <button>Tìm kiếm</button>
+            </div>
+        </nav>
+    </header>
+<section class="contact-us" id="contact">
+    <div class="container">
+        <link rel="stylesheet" href="lienhe.css">
+        <div class="contact-header">
+            <h2>Liên Hệ Với Chúng Tôi</h2>
+            <p>Hãy để lại thông tin của bạn, chúng tôi sẽ liên hệ lại trong thời gian sớm nhất!</p>
+        </div>
+
+        <!-- Phần nội dung liên hệ -->
+        <div class="contact-content">
+            <!-- Form liên hệ -->
+            <form action="submit_form.php" method="post" class="contact-form">
+                <input type="text" name="name" placeholder="Họ và tên" required>
+                <input type="email" name="email" placeholder="Email của bạn" required>
+                <textarea name="message" placeholder="Lời nhắn của bạn..." rows="5" required></textarea>
+                <button type="submit">Gửi Thông Tin</button>
+            </form>
+
+            <!-- Thông tin liên lạc -->
+            <div class="contact-info">
+                <h3>Thông Tin Liên Hệ</h3>
+                <p>📍 Địa chỉ: 123 Đường Mạc Thái Tổ, Thanh Sơn,Kiến Thụy TP.Hải Phòng</p>
+                <p>📞 Điện thoại: <a href="tel:+8498765xxx">+84 987 xxx 321</a></p>
+                <p>✉️ Email: <a href="mailto:support@fashionstore.com">support@ngohieuluxury.com</a></p>
+
+                <!-- Mạng xã hội -->
+                <div class="social-links">
+                    <a href="https://facebook.com" target="_blank">Facebook</a>
+                    <a href="https://instagram.com" target="_blank">Instagram</a>
+                    <a href="https://twitter.com" target="_blank">Twitter</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+ 
+<footer class="footer">
+    <p>© 2024 Fashion Shop. Tất cả các quyền được bảo lưu.</p>
+</footer>
+</body>
+</html>

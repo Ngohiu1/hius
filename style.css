@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #222;
+    color: white;
+    padding: 10px 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.search-bar {
+    display: flex;
+}
+
+.search-bar input {
+    padding: 5px;
+    outline: none;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+    background-color: #ff6347;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+/* Main Section Styles */
+main {
+    padding: 20px;
+}
+
+/* Intro Section */
+
+
+.intro-text {
+    max-width: 100%;
+    
+    color: #000000;
+}
+
+.intro-img img {
+    width: 400px;
+    border-radius: 10px;
+}
+.container body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #35746b;
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+  
+  /* Tiêu đề */
+  .title {
+    font-size: 2rem;
+    margin: 20px 0;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* Container */
+  .container {
+    padding: 20px;
+  }
+  
+  /* Grid layout */
+  .grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  /* Item */
+  .item {
+    background-color: #0a4137;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+  }
+  
+  .item:hover {
+    transform: scale(1.05);
+  }
+  
+  /* Ảnh */
+  .item img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Tiêu đề món ăn */
+  .item h2 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  /* Mô tả */
+  .item p {
+    font-size: 0.9rem;
+    color: #d4d4d4;
+  }
+  
+
+.banner{
+    text-align: center;
+}
+.banner :hover{
+color: yellow;
+}
+.btn {
+    background-color: #ff5722;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 5px 0;
+}
